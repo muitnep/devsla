@@ -7,9 +7,13 @@
 
 /*VARIAVEIS*/
 :root {
-  --header-color: black;
+  --header-color: #000;
   --h1-color: #393c41;
   --h2-color: #6e7378;
+  --btn-dark-bg: rgba(23, 26, 32, 0.8);
+  --btn-light-bg: rgba(255, 255, 255, 0.65);
+  --btn-dark-color: #fff;
+  --btn-light-color: #000;
 }
 
 /*FONTES*/
