@@ -1,61 +1,62 @@
-
-
 /*HEADER*/
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 3.125rem;     
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3.125rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
 }
 
-header ul, header li {
-    list-style: none;
+header ul,
+header li {
+  list-style: none;
 }
 
 header .leftside .logo {
-    width: 7.5rem;
-    margin-left: 1.25rem;
+  width: 7.5rem;
+  margin-left: 1.25rem;
 }
 
 header .middle ul {
-    display: flex;
-
+  display: flex;
 }
 
 header .middle li {
-    margin: 0 .625rem;
+  margin: 0 0.625rem;
 }
 
 header .middle a {
-    text-decoration: none;
-    color: var(--header-color);
-    text-transform: uppercase;
+  text-decoration: none;
+  color: var(--header-color);
+  text-transform: uppercase;
 }
 
 header .rightside ul {
-    display: flex;
+  display: flex;
 }
 header .rightside li {
-    margin: 0 .625rem;
-    
+  margin: 0 0.625rem;
 }
 
 header .rightside a {
-    text-decoration: none;
-    color: var(--header-color);
-    text-transform: uppercase;
+  text-decoration: none;
+  color: var(--header-color);
+  text-transform: uppercase;
 }
 
 header .menu--icon {
-    width: 1.125rem;
-    height: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    cursor: pointer;
+  width: 1.125rem;
+  height: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
 }
 
 header .menu--icon div {
-height: .125rem;
-background-color: var(--header-color);
+  height: 0.125rem;
+  background-color: var(--header-color);
 }

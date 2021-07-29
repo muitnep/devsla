@@ -1,27 +1,29 @@
 /*RESET*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /*VARIAVEIS*/
 :root {
-    --header-color: black;
+  --header-color: black;
+  --h1-color: #393c41;
+  --h2-color: #6e7378;
 }
 
 /*FONTES*/
 @font-face {
-    font-family: GothamMedium;
-    src: url(../fonts/GothamMedium.otf);
+  font-family: GothamMedium;
+  src: url(../fonts/GothamMedium.otf);
 }
 
 @font-face {
-    font-family: GothamBook;
-    src: url(../fonts/GothamBookRegular.otf);
+  font-family: GothamBook;
+  src: url(../fonts/GothamBookRegular.otf);
 }
 
 body {
-    font-family: 'GothamMedium', Arial, Helvetica, sans-serif;
-    font-size:1rem;
+  font-family: 'GothamMedium', Arial, Helvetica, sans-serif;
+  font-size: 1rem;
 }

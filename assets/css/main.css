@@ -1,0 +1,34 @@
+/*MAIN*/
+main {
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+main .main-content {
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: var(--h1-color);
+}
+
+main h2 {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-family: 'GothamBook', Arial, Helvetica, sans-serif;
+  color: var(--h2-color);
+}
+
+main h2 a {
+  color: var(--h1-color);
+}
