@@ -1,0 +1,27 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*VARIAVEIS*/
+:root {
+    --header-color: black;
+}
+
+/*FONTES*/
+@font-face {
+    font-family: GothamMedium;
+    src: url(../fonts/GothamMedium.otf);
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url(../fonts/GothamBookRegular.otf);
+}
+
+body {
+    font-family: 'GothamMedium', Arial, Helvetica, sans-serif;
+    font-size:1rem;
+}
