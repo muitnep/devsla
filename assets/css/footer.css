@@ -58,3 +58,18 @@ footer .arrow {
   animation-duration: 1s;
   animation-iteration-count: infinite;
 }
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 600px) {
+  footer .buttons--area {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .buttons--area a {
+    margin: .625rem 1.25rem;
+    width: calc(100vw - 3.75rem);
+  }
+   
+}

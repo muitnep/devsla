@@ -60,3 +60,19 @@ header .menu--icon div {
   height: 0.125rem;
   background-color: var(--header-color);
 }
+
+/*MEDIA QUERIES*/
+@media (max-width: 1200px){
+  header .middle {
+    display: none;
+  }
+
+  header .rightside li {
+    display: none;
+  }
+
+  header .rightside li.menu--icon {
+    display: block;
+    margin-right: 1.25rem;
+  }
+}
